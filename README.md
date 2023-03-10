@@ -18,3 +18,22 @@ In the next test we performed, we first took the data and grouped it by manufact
 
 ![image](https://user-images.githubusercontent.com/117782103/224205498-e803a0a2-44ec-4b5f-8f34-f1f1c28a068e.png)
 
+## T-Tests on Suspension Coils 
+
+Our goal was to determine if the lots as a whole and indivdually are statistically different from the population mean of 1,500 pounds per square inch. The first t-test we performed was based on all manufacturing lots. This t-test resulted in a p-value of 1. This p-value is higher than our standard significance level of 0.05 which means we do not have sufficient evidence to reject the null hypothoses. The population mean and mean of the manufacturing lot as a whole are statistically similar. 
+
+![image](https://user-images.githubusercontent.com/117782103/224209829-fefcb2b0-3354-4063-bb93-c72169579920.png)
+
+Next, we performed t-tests on each lot. The p-value for lot 1 was 1.568e-11. This is smaller than our significance level of 0.05. The mean of manufacturing lot 1 and the population mean are not statistically similar.  
+
+![image](https://user-images.githubusercontent.com/117782103/224210003-f6e24c6a-e15c-41e6-8644-dba661e107c8.png)
+
+The t-test p=vale for lot 2 was 0.0005911 which is again smaller than our significance level. The mean of manufacturing lot 2 and the population mean are not statistically similar. 
+
+![image](https://user-images.githubusercontent.com/117782103/224211633-362da661-5c86-4116-9f70-166fb0ddf5ed.png)
+
+Lastly, the t-test p-value for lot 3 was 0.1589 which is above our signifiance level. This means that we do not have sufficient evidence to reject the null hypothese and that the 2 means are statistically simillar. 
+
+![image](https://user-images.githubusercontent.com/117782103/224211846-c8f514db-3228-4330-808d-46f935560aa3.png)
+
+
